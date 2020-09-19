@@ -1,0 +1,404 @@
+:root {
+    --primary: #1F2428;
+    --primary-alt: #CACBCB;
+    --gen_back: #1F2428;
+    --reg: #5F9BA6;
+}
+/* reset section */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    font-family: Helvetica, serif;
+    font-weight: 700;
+    color: var(--primary-alt);
+}
+
+/* body section below*/
+
+
+.logo a img {
+    width: 150px;
+    object-fit: cover;
+    float: left;
+    margin: 15px 30px;
+}
+
+.nav_header {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.top_section .item_list li {
+    display: inline;
+    margin: 0px 30px;
+}
+
+.item_list li a {
+    color: var(--primary-alt);
+    text-decoration: none;
+}
+
+.item_list ul li .list_nav:hover {
+    background-color: gray;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.item_list li a input {
+    background-color: #DDDDDD;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.section {
+    background-image: url(/assets/img/backgroundmain.jpg);
+    object-fit: cover;
+    width: auto;
+    height: 170vh;
+}
+
+.inner_section {
+
+    text-align: center;
+}
+
+.inner_section h3 {
+    text-align: center;
+    padding-top: 230px;
+}
+
+.inner_section h1 {
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-size: 46px;
+}
+
+.inner_section a input {
+    background-color: #48747D;
+    color: #ffffff;
+    padding: 10px 30px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.video_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.video_section .l_video {
+    margin-right: 60px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.video_section .r_video {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.section p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.gen_section {
+    background-color: var(--gen_back);
+    height: 90vh;
+}
+
+.gen_section .gen_title {
+    text-align: center;
+    padding: 90px 0px;
+    font-size: 25px;
+}
+
+.gen_section .gen_list {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.gen_section .gen_list .l_list ul li {
+    display: block;
+    font-size: 20px;
+}
+
+.gen_section .gen_list .r_list ul li {
+    display: block;
+    font-size: 20px;
+}
+
+.gen_section .gen_list ul li:before {
+    content: "✓ ";
+    font-size: 38px;
+    font-weight: 100;
+    color: var(--reg);
+}
+
+.gen_section .gen_button {
+    display: inline-block;
+    text-align: center;
+    margin: 30px 44%;
+}
+
+.gen_section .gen_button a input {
+    background-color: #48747D;
+    color: #ffffff;
+    padding: 10px 30px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.reg_section {
+    background-color: var(--reg);
+    height: 80vh;
+    text-align: center;
+}
+
+.reg_section .reg_header h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 46px;
+}
+
+.reg_section .reg_header h6 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.reg_section .reg_icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+.reg_section .reg_icon img{
+    padding-left: 10%;
+    padding-bottom: 1em;
+}
+.reg_section .reg_icon h4{
+    color: var(--gen_back);
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+.reg_section .reg_button a input{
+    color: var(--primary-alt);
+    background-color: var(--gen_back);
+    padding: 16px 60px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+.exp_section{
+    background-color: var(--gen_back);
+    height: auto;
+}
+.exp_section .exp_header h1{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    font-size: 46px;
+    font-weight: 400;
+}
+.exp_section .exp_header h3{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-weight: 400;
+}
+.exp_section .exp_top_inner{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.exp_section .exp_top_inner img{
+    width: auto;
+    height: 25%;
+    text-align: center;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+.exp_section .exp_top_inner h4{
+    color: var(--reg);
+    margin-bottom: 25px;
+    height: auto;
+    text-align: center;
+
+
+}
+.exp_section .exp_top_inner .box{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding: 0px 40px;
+    font-weight: 400;
+}
+.exp_section .exp_bottom_inner{
+    display: flex;
+    justify-content: center;
+}
+.exp_section .exp_bottom_inner img{
+    width: auto;
+    height: 25%;
+    text-align: center;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+.exp_section .exp_bottom_inner h4{
+    color: var(--reg);
+    margin-bottom: 25px;
+    height: auto;
+    text-align: center;
+}
+.exp_section .exp_bottom_inner .box{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding: 0px 40px;
+    font-weight: 400;
+}
+.exp_section .exp_layout {
+    width: 90%;
+    margin: 0px 5%;
+    display: flex;
+    padding: 100px 0px;
+}
+.exp_section .exp_layout .exp_l_layout{
+    width: 50%;
+}
+.exp_section .exp_layout .exp_l_layout h1{
+    padding-top: 20px;
+    font-size: 46px;
+    font-weight: 400;
+}
+.exp_section .exp_layout .exp_l_layout p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.exp_section .exp_layout .exp_r_layout{
+    width: 50%;
+}
+.exp_section .exp_layout .exp_l_layout a input {
+    background-color: var(--reg);
+    color: var(--gen_back);
+    padding: 10px 30px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.exp_section .exp_bottom_layout {
+    width: 90%;
+    margin: 0px 5%;
+    display: flex;
+    padding: 100px 0px;
+}
+.exp_section .exp_bottom_layout .exp_r_layout h1{
+    margin-top: 50px;
+    font-size: 46px;
+    font-weight: 400;
+}
+.exp_section .exp_bottom_layout .exp_r_layout p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+    
+}
+.exp_section .exp_bottom_layout .exp_r_layout a input {
+    background-color: var(--reg);
+    color: var(--gen_back);
+    padding: 10px 30px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.account_sec {
+    background-color: var(--reg);
+    height: 55vh;
+    text-align: center;
+}
+.account_sec h1{
+    
+    font-size: 46px;
+    font-weight: 600;
+    padding: 70px 0px 0px;
+}
+.account_sec h3{
+    font-weight: 400;
+    padding: 35px 0px 55px;
+}
+.account_sec a input{
+    color: var(--primary-alt);
+    background-color: var(--gen_back);
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+/* .plan_sec {
+    background-color:var(--gen_back);
+    text-align: center;
+}
+.plan_sec .plan_title h1{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 46px;
+    font-weight: 600;
+}
+.plan_sec .plan_title h3{
+    padding-bottom: 80px;
+    font-weight: 400;
+}
+
+
+.plan_sec .all_box {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding-bottom: 60vh;
+}
+.plan_sec .all_box .box {
+    width: 20%;
+    height: auto;
+    border: 1px solid var(--gen_back);
+    background-color: #fff;
+    color: var(--gen_back);
+    margin-right: 1em;
+}
+.plan_sec .all_box .box h1{
+
+}
+.plan_sec .all_box .box h5, h1, h4 {
+    border-top: 1px solid lightgray;
+    font-weight: 400;
+    margin: 20px;
+    
+} */
+
+
+
