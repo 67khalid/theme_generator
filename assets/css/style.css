@@ -66,6 +66,7 @@ body {
 }
 
 .section {
+    background-color: var(--gen_back);
     background-image: url(/assets/img/backgroundmain.jpg);
     object-fit: cover;
     width: auto;
